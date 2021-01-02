@@ -14,18 +14,19 @@ int main(void)
     for (int row = 0; row < height; row++)
    {
      for (int space = (height - row) ; space > 1; space --)
-     {
-     printf (" ");
-     }
+        {
+        printf(" ");
+         }
      for (int hash = 0; hash <= row; hash++)
-     {
-     printf ("#");
-     }
-     printf ("  ");
+        {
+        printf("#");
+        }
+        printf("  ");
       for (int hash2 = 0; hash2 <= row; hash2++)
-     {
-     printf ("#");
-     }
-
-    printf ("\n");
-} } }
+        {
+         printf("#");
+        }
+        printf("\n");
+        }
+    }
+}
