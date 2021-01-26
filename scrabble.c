@@ -37,6 +37,8 @@ int compute_score(string word)
     int sum =0;
     for (int i = 0, n = strlen(word); i < n; i++)
     {
+        if  (isalpha(word[i]))
+        {
         if (isupper(word[i]))
         {
              l = word[i]-65;
@@ -48,6 +50,7 @@ int compute_score(string word)
              l = POINTS[l];
         }
           sum = sum + l;
+        }
     }
     return sum;
 }
