@@ -11,7 +11,7 @@ int main(void)
 // get text for analysis
 string text = get_string("Text: ");
 int index = count_letters(text);
-index = round(index);
+
 if (index < 1)
 {
   printf("Before Grade 1\n");
@@ -23,8 +23,6 @@ else if(index >= 16)
 else {
   printf("Grade %i\n", index);
 }
-
-
 }
 
 int count_letters(string text)
@@ -47,8 +45,13 @@ int count_letters(string text)
         sentences++;
         }
   }
+
+     printf("%i\n", letters );
+         printf("%i\n", words );
+          printf("%i\n", sentences );
+
  float L = letters/(float)words * 100;
  float S = sentences/(float)words * 100;
-  float score = 0.0588 * L - 0.296 * S - 15.8;
-         return score;
+float score = 0.0588 * L - 0.296 * S - 15.8;
+         return round(score);
 }
