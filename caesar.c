@@ -21,7 +21,7 @@ int main (int argc, string argv[])
         // get the text from user and print text
        string plain = get_string("plaintext:");
 
-    printf("ciphertext:");
+    printf("ciphertext: ");
         // loop to work through each letter
     int n = strlen(plain);
    for (int i = 0 ; i < n; i++)
