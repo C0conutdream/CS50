@@ -54,7 +54,7 @@ int main (int argc, string argv[])
     printf("%c", plain[i]);
     }
    }
-    printf(" \n");
+    printf("\n");
         }
         else
         {
