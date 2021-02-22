@@ -1,0 +1,14 @@
+sort1 uses: bubble sort
+
+How do you know?: This sorting algorithm is much faster when the data is already sorted.
+This is because bubble sort will have its sorter count as 0 at the end of thhe first run through of the numbers.
+The will know computer that the numbers are already in order and ending the program.
+
+sort2 uses: merge sort
+
+How do you know?:This was the fastest algorithm consistently over each type of data set. It was also relatively consistent no matter if
+the data was in otder, reversed or random.
+
+sort3 uses: selection sort
+How do you know?: This algorithm too a medium amount of time and was similar no matter what order the data was in. This is because
+selection has to go from the start to the end even if the data is in order.
